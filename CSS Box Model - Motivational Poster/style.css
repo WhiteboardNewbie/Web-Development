@@ -1,0 +1,23 @@
+/* TAG SELECTORS */
+
+body {
+    background-color:black;
+  }
+
+
+/* CLASS SELECTORS */
+
+.container {
+    width:50%;
+    margin-left:25%;
+    text-align:center;
+    color:white;
+}
+
+
+/* COMBINED SELECTORS */
+
+.container > h1 {
+    text-transform:uppercase;
+    font-family: 'Libre Baskerville'
+}
